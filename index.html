@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>RIVANANA IMÓVEIS LTDA</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Courier New", monospace;
+            background-color: #3a3a3a;
+            color: #e0e0e0;
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        section {
+            padding: 80px 12%;
+        }
+
+        /* Retro style */
+        .retro-border {
+            border: 2px solid #777;
+            padding: 20px;
+            box-shadow: 0 0 15px #222;
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            height: 100vh;
+            background: url("https://plus.unsplash.com/premium_photo-1683120730432-b5ea74bd9047?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+        }
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.55);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 800px;
+        }
+
+        /* About */
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .about-content img {
+            width: 40%;
+            border: 2px solid #777;
+            box-shadow: 0 0 10px #222;
+        }
+
+        /* Services layout */
+        .services-grid, .advantages-grid, .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+        }
+
+        /* Contacts */
+        .contacts {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>RIVANANA IMÓVEIS LTDA</h1>
+        <h3 class="retro-border">
+            Consultoria estratégica em negócios, gestão e finanças — ajudamos empresas a enxergar além do óbvio.  
+            Nossa equipe transforma desafios em rotas claras, sustentáveis e orientadas por resultados reais.
+        </h3>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+    <h2>Quem Somos de Verdade</h2>
+    <div class="about-content">
+        <p class="retro-border">
+            A RIVANANA IMÓVEIS LTDA nasceu com a missão de apoiar organizações em decisões críticas, oferecendo 
+            consultoria personalizada em gestão, análise financeira e planejamento estratégico. Trabalhamos com 
+            empresas que buscam clareza na expansão, estruturação de processos e melhoria da performance operacional. 
+            Nossa experiência combina visão analítica e compreensão humana das dinâmicas corporativas.  
+            Acreditamos que cada projeto merece atenção profunda e soluções sob medida. Operamos sempre com ética, 
+            transparência e compromisso com resultados concretos.
+        </p>
+
+        <img src="https://media.istockphoto.com/id/2226298773/photo/two-colleagues-collaborating-on-a-project-in-a-bright-modern-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=0aTL8GyVBACjFhaLQkid_9N9N6Hf8RFSQ0MFXg9BCPA=" alt="Sobre nós">
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section>
+    <h2>Nossos Ofícios Estratégicos</h2>
+    <div class="services-grid">
+        <div class="retro-border">
+            <h3>Consultoria de Gestão</h3>
+            <p>
+                Desenvolvemos diagnósticos profundos para aprimorar estruturas internas, produtividade e 
+                tomada de decisão. Criamos planos práticos que alinham pessoas, processos e objetivos.
+            </p>
+        </div>
+        <div class="retro-border">
+            <h3>Planejamento Financeiro</h3>
+            <p>
+                Apoiamos empresas na construção de cenários, controle financeiro e otimização de custos.  
+                Nossas análises fornecem segurança e previsibilidade para decisões estratégicas de médio e longo prazo.
+            </p>
+        </div>
+        <div class="retro-border">
+            <h3>Expansão & Crescimento</h3>
+            <p>
+                Ajudamos marcas a expandirem com solidez, avaliando riscos, oportunidades e posicionamento.  
+                Atuamos desde estudos de viabilidade até a estruturação completa de novos projetos.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ADVANTAGES -->
+<section>
+    <h2>Por Que Somos Diferentes</h2>
+    <div class="advantages-grid">
+        <div class="retro-border">
+            <h3>Visão Estratégica Realista</h3>
+            <p>
+                Não trabalhamos com previsões vagas. Analisamos dados reais, mercado e histórico da empresa 
+                para entregar diagnósticos práticos e acionáveis.
+            </p>
+        </div>
+        <div class="retro-border">
+            <h3>Atendimento Personalizado</h3>
+            <p>
+                Cada cliente recebe soluções sob medida, adaptadas ao contexto e às necessidades específicas 
+                da organização, sem respostas genéricas.
+            </p>
+        </div>
+        <div class="retro-border">
+            <h3>Compromisso com Resultados</h3>
+            <p>
+                Nossa consultoria é orientada a metas claras e evolução mensurável, garantindo impacto real 
+                no desempenho da empresa.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+    <h2>Como Conduzimos Seu Projeto</h2>
+    <div class="process-grid">
+        <div class="retro-border">
+            <h3>1. Diagnóstico Profundo</h3>
+            <p>
+                Entrevistas, análise de dados e estudo do cenário atual para entender o que realmente precisa ser transformado.
+            </p>
+        </div>
+        <div class="retro-border">
+            <h3>2. Planejamento Sob Medida</h3>
+            <p>
+                Criamos estratégias claras, sustentáveis e orientadas à realidade da empresa e ao seu potencial de crescimento.
+            </p>
+        </div>
+        <div class="retro-border">
+            <h3>3. Implementação & Acompanhamento</h3>
+            <p>
+                Apoiamos o cliente na execução e monitoramos resultados para garantir avanços consistentes.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTS -->
+<section class="contacts">
+    <h2>Vamos Iniciar Algo Grande?</h2>
+    <div class="retro-border">
+        <p>
+            Entre em contato conosco pelo e-mail: <strong>box@rivananaimoveis.org</strong><br>
+            Endereço: Av. Professor Vicente Lopes Peres 401, 38500-000, Monte Carmelo
+        </p>
+        <p>
+            Estamos prontos para ouvir suas ideias, desafios e metas.  
+            Cada grande transformação começa com uma conversa — fale conosco e dê o próximo passo rumo ao crescimento.
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 RIVANANA IMÓVEIS LTDA — Consultoria em Negócios, Gestão e Finanças
+</footer>
+
+</body>
+</html>
